@@ -1,0 +1,729 @@
+/*--------------------------------------------------------
+                    COLOR GUIDE
+Headlines: rgba ();
+
+--------------------------------------------------------*/
+/*--------------------------------------------------------
+                    GLOBAL STYLES
+--------------------------------------------------------*/
+
+/*font-family: 'Alegreya SC', serif;*/
+/*font-family: 'Alegreya Sans', sans-serif;*/
+
+
+
+
+@media screen and (min-width: 320px)
+{
+    
+    
+    
+    
+    footer 
+    {
+        border-top: 3px dotted rgb(90, 90, 90);
+        padding: 20px 20px 20px 20px ;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    footer h4
+    {
+        text-transform: uppercase;
+    }
+
+    footer p
+    {
+        margin: 0;
+    }
+
+    footer lu
+    {
+        list-style: none;
+        color: dimgray;
+    }
+    
+    .p-icon
+    {
+        width: 20px;
+    }
+    
+    .call-link a:link
+    {
+        color: dimgray;
+        
+    }
+    
+    .call-link a:visited
+    {
+        color: dimgray;
+    }
+    
+    .call-link a:hover
+    {
+        color: rgb(65, 65, 65);   
+    }
+    
+    body
+    {
+        font-family: "Times New Roman";
+        background: rgb(244, 244, 244);
+        font-size: 1.4em;
+        padding: 3% 6% 3% 6%;
+        text-align: center;
+    }    
+
+
+    .container
+{
+    background: rgb(244, 244, 244);
+    display: inline-block;
+    min-width: 100%;
+    text-align: left;
+   
+}
+
+h1, h2, h3 
+{
+    font-family: "Alegreya SC", Garamond, "Baskerville Old Face", "Times New Roman", serif;
+    font-weight: normal;
+}
+
+h1
+{
+    font-style: italic;
+    color: rgb(255, 226, 0);
+    font-size: 2.0em;
+    line-height: 1.2656em;
+    margin-top: 0.4219em;
+    margin-bottom: 0;
+}
+
+h2 
+{
+    display: block;
+    width: 100%;
+    text-align: center
+    font-size: 2.5em;
+    line-height: 1.2658em;
+    margin: 0.4219em auto 0.4219em auto; 
+    color: rgb(0, 85, 160);
+}
+
+h3
+{
+    font-size: 1.5263em;
+    font-weight: normal;
+    line-height: 1.2558em;
+    margin-top: 2.0em;
+    margin-bottom: 0;  
+    color: rgb(0, 85, 160);
+    border-bottom: 1px solid rgb(0, 85, 160);
+}
+
+h4
+{
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.3em;
+    margin-top: 0.9310em;
+    margin-bottom: 0; 
+    color: dimgray;
+}
+
+p
+{
+    font-family: "Times New Roman";
+    color: dimgray;
+    font-size: 1.4em;
+    line-height: 1.4211em;
+    margin-top: 1.4211em;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+img
+{
+    width: 100%;
+}
+
+.contact-list ul
+{
+    display: block;
+    color: rgb(0, 85, 160);
+    padding-left: 0;
+}
+
+    .contact-list li
+    {
+        color: dimgray;
+        list-style: none;
+    }
+
+.info
+{
+    margin-bottom: 50px;
+    margin: 50px;
+}
+
+
+
+a:link
+{
+    color: dimgray;
+}
+
+a:visited 
+{
+    color: dimgray;
+}
+
+a:hover
+{
+    color: rgb(65, 65, 65);  
+}
+
+a:active
+{
+    color: rgb (255, 217, 142);
+}
+
+.name 
+{
+    font-weight: bold;
+}
+}
+@media screen and (min-width: 1024px)
+{
+    .container
+    {
+    background: rgb(244, 244, 244);
+    display: inline-block;
+    margin-right: 0%;   
+    padding-left: 0%;
+    top:0;
+    }
+    
+        body
+    {
+        font-family: "Times New Roman";
+        background: rgb(244, 244, 244);
+        font-size: 1.2em;
+        text-align: left !important;
+        bottom: 0;
+        padding:0 !important;
+    }
+    }
+}
+/*--------------------------------------------------------
+                    LOGO STYLES
+--------------------------------------------------------*/
+
+@media screen and (min-width: 320px)
+{
+
+     .logo a
+    {
+        display: inline-block !important;
+        background-color: transparent !important;
+    }
+    
+    .logo
+    {
+         display: block;
+        margin: 0 auto;
+        
+    }
+
+        .logo img
+        {
+            width: 300px;    
+        }
+}
+
+@media screen and (min-width: 750px)
+{
+
+     .logo a
+    {
+        display: inline-block !important;
+        background-color: transparent !important;
+    }
+    
+    .logo
+    {
+        display: block;
+        margin: 0 auto;
+        width: 451px;
+    }
+
+        .logo img
+        {
+            width: 451px;    
+        }
+}
+
+@media screen and (min-width: 1024px)
+{
+    header
+    {
+        display: inline-block;
+        background-color: black;
+        margin-left: 0;
+        float: left !important;
+        
+        
+    }
+    
+ 
+.logo
+{
+    margin-top: 10px;
+    display: inline-block !important; 
+    float: left !important;
+    margin-left: 2%;
+    width: 150px;
+    height: 80px;
+    background-image: url(../images/logo_gelborn_col.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}    
+   .logo a
+    {
+        display: block !important;
+        float: left !important;
+        background-color: transparent !important;
+        margin:0% !important;
+        border-radius: 0px !important;
+        max-height: 50px !important;
+    }
+    
+
+
+   .logo img
+    {
+    display: none;
+    margin-top: 0%;
+    width:  200px;  
+    }
+}
+/*--------------------------------------------------------
+                   MAIN NAVIGATION STYLES
+--------------------------------------------------------*/
+@media screen and (min-width: 320px)
+{
+
+    header
+    {
+        
+        margin-top: 25px;
+        min-width: 100%;
+        padding-left: 10px;
+        align-content: center;
+        float: none;
+       
+    }
+    
+    .main-navigation 
+{
+    margin-bottom: 0px;
+    background: rgb(244, 244, 244);
+    align-content: center;
+
+    /*padding: 30px 6% 0px 6%;*/
+}
+
+.main-navigation ul
+{
+    padding-left: 0;
+}
+
+.main-navigation li
+{
+    list-style: none;
+    text-align: center;
+    margin: 20px 0px;
+    
+}
+
+.main-navigation a
+{
+    display: block;
+    padding: 25px 0 0px 0;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(121, 121, 121, 0.24);
+    color: rgb(128, 128, 128);
+    height: 75px;
+    border-radius: 15px;
+}
+
+    .main-navigation a:hover
+    {
+        color: rgb(0, 85, 160);   
+        transition: 0.5s color;
+        background: rgba(134, 134, 134, 0.51);
+    }
+
+    .main-navigation a:active
+    {
+        color: rgb(172,140,71);
+    }
+}
+
+@media screen and (min-width: 750px)
+{
+    
+    header
+    {
+        min-width: 100%;
+    
+    }
+    .main-navigation 
+{
+    margin-bottom: 0px;
+    background: rgb(244, 244, 244);
+    
+}
+
+.main-navigation ul
+{
+    padding-left: 0;
+}
+
+.main-navigation li
+{
+    list-style: none;
+    text-align: center;
+    margin-right: 20px 0px;
+    
+}
+
+.main-navigation a
+{
+    display: block;
+    padding: 25px 0 0px 0;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(121, 121, 121, 0.24);
+    color: rgb(128, 128, 128);
+    height: 75px;
+    border-radius: 15px;
+}
+
+    .main-navigation a:hover
+    {
+        color: rgb(0, 85, 160);   
+        transition: 0.5s color;
+        background: rgba(134, 134, 134, 0.51);
+    }
+
+    .main-navigation a:active
+    {
+        color: rgb(172,140,71);
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+ 
+   header
+    {
+        top:0;
+        
+    }
+    .container
+    {
+        min-width: 100%;
+    }
+  .main-navigation
+    {
+        min-width: 100%;
+        position: fixed;
+        display: block;
+        left:0;
+        top:0;
+        background: rgb(244, 244, 244);
+        height: 100px;
+        padding:0;
+        box-shadow: 2px 2px 2px 2px rgba(21, 21, 21, 0.47);
+    }
+        .main-navigation ul
+        {
+            display: inline-block;
+            float: right;
+            text-align: left;       
+            margin-top:  0% !important;
+            padding:0;
+            width: 75%;
+            
+            
+        }
+            .main-navigation li
+            {   
+                display: block;
+                text-align: center;
+                float: left;
+                /*float: right;*/
+                margin-left: 30px;
+                height:10%;
+                width: 25%;
+                margin-top:0px !important;
+                padding: 0% !important;
+                
+                
+                
+            }
+                .main-navigation a
+                {
+                    display: inline-block;
+                    color:rgba(0, 85, 160, 0.8);;
+                    background: none;
+                    margin-top:0% !important;
+                    
+                }
+                .main-navigation a:hover
+                {
+                    background: none;
+                    color: rgb(1, 33, 62);   
+                    transition: 0.3s color;
+                }
+}
+
+/*--------------------------------------------------------
+                    HERO STYLES
+--------------------------------------------------------*/
+
+@media screen and (min-width: 750px)
+{
+    .hero
+{
+    text-align: center;
+    min-width: 100%;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 0;
+    
+}
+    
+    .hero h1
+{
+    display: block;
+        max-width: 75%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 2.0em;    
+}
+}
+@media screen and (min-width: 1024px)
+{
+    
+       .hero
+{
+    text-align: center;
+    min-height: 580px;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 25%;
+    
+}
+    
+    .hero h1
+    {
+        display: block;
+        max-width: 75%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 2.0em;
+    }
+}
+
+/*--------------------------------------------------------
+                    OM OSS STYLES
+--------------------------------------------------------*/
+
+@media screen and (min-width:1024px)
+{
+    
+    .om-sida .side-info
+    {
+        float: none;
+        width: 100%;
+    }
+    .om-sida .info-cont
+    {
+        float: left;
+        display: inline-block;
+        width: 60%;
+        margin-top: 20px;
+    }
+    .om-sida .info
+    {
+        float: none;
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+  
+    .om-sida .sidebar
+    {
+        margin-top: 20px;
+        float: right;
+        width: 30%;
+        
+    }
+    
+    .om-sida footer
+    {
+        width:100%;
+        float: left;
+    }
+}
+
+/*--------------------------------------------------------
+                    EKONOMI STYLES
+--------------------------------------------------------*/
+
+    .ekonomi-sida .info-cont p
+    
+{
+    font-style: italic;
+}
+
+    .ekonomi-sida .info-cont
+    {
+        margin-top: 20px;
+    }
+    
+    .ekonomi-sida .info-cont .info
+    {
+        margin-bottom: 50px;
+    }
+
+    
+@media screen and (min-width:1024px)
+{
+    
+    .ekonomi-sida .side-info
+    {
+        float: none;
+        width: 100%;
+    }
+    .ekonomi-sida .info-cont
+    {
+        float: left;
+        display: inline-block;
+        width: 60%;
+        margin-top: 20px;
+    }
+    .ekonomi-sida .info
+    {
+        float: none;
+        width: 100%;
+        
+    }
+  
+    .ekonomi-sida .sidebar
+    {
+        float: right;
+        width: 30%;
+        margin-top: 20px;
+        padding: 42px 30px 50px 0px;
+        margin-right: 50px;
+    }
+    
+    .ekonomi-sida .sidebar h3 
+    {
+        margin-top: 0.6em;
+    }
+    
+    .ekonomi-sida footer
+    {
+        width:100%;
+        float: left;
+      
+    }
+}
+
+/*--------------------------------------------------------
+                    MEDLEM STYLES
+--------------------------------------------------------*/
+
+@media screen and (min-width:1024px)
+{
+    
+
+    .medlem-sida .side-info
+    {
+        float: none;
+        width: 100%;
+    }
+    .medlem-sida .info-cont
+    {
+        float: left;
+        display: inline-block;
+        width: 60%;
+        margin-top: 20px;
+    }
+    .medlem-sida .info
+    {
+        float: none;
+        width: 100%;
+        
+    }
+  
+    .medlem-sida .sidebar
+    {
+        float: right;
+        width: 30%;
+        margin-top: 20px;
+        padding: 42px 30px 50px 0px;
+        margin-right: 50px;
+    }
+    
+    .medlem-sida .sidebar h3 
+    {
+        margin-top: 0.6em;
+    }
+    
+    .medlem-sida footer
+    {
+        width:100%;
+        float: left;
+      
+    }
+}
+
+/*--------------------------------------------------------
+                    GLOBAL FOOTER STYLES
+--------------------------------------------------------*/
+footer 
+{
+    border-top: 3px dotted rgb(90, 90, 90);
+    padding: 20px 20px 20px 20px ;
+    width: 100%;
+    margin-top: 50px;
+}
+
+    footer h4
+    {
+        text-transform: uppercase;
+    }
+
+    footer p
+    {
+        margin: 0;
+    }
+
+    footer lu
+    {
+        list-style: none;
+        color: dimgray;
+    }
+
+    
